@@ -1,7 +1,7 @@
 // src/service/Api-user.js
 // Clase para manejar peticiones a la API de UpLearn y gestión de token
 
-const API_BASE_URL = 'https://users-service-c9bhh8agamhndhg2.canadacentral-01.azurewebsites.net//Api-user';
+const API_BASE_URL = 'https://user-ser-fugpe2afcsbuduhe.canadacentral-01.azurewebsites.net/Api-user';
 
 class ApiUserService {
   static token = null;

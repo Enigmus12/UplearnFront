@@ -6,13 +6,13 @@ export const ENV = {
   SCHEDULER_BASE:
     viteEnv.VITE_SCHEDULER_BASE_URL ||
     process.env.REACT_APP_SCHEDULER_API_BASE ||
-    'https://reservationsservice-g2f5cvd5c2f2bsd0.canadacentral-01.azurewebsites.net',
+    'https://reservations-service-axhua9hde6cbbqac.canadacentral-01.azurewebsites.net',
 
   // Base del users service. Para CRA ya incluye /Api-user
   USERS_BASE:
     viteEnv.VITE_USERS_BASE_URL ||
     process.env.REACT_APP_USER_API_BASE ||   // ej: http://localhost:8080/Api-user
-    'https://users-service-c9bhh8agamhndhg2.canadacentral-01.azurewebsites.net/Api-user',
+    'https://user-ser-fugpe2afcsbuduhe.canadacentral-01.azurewebsites.net/Api-user',
 
   // Ruta del endpoint público (si USERS_BASE ya incluye /Api-user, aquí solo /public/profile)
   USERS_PROFILE_PATH:

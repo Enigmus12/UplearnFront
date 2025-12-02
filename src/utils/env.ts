@@ -6,7 +6,7 @@ export const ENV = {
   SCHEDULER_BASE:
     viteEnv.VITE_SCHEDULER_BASE_URL ||
     process.env.REACT_APP_SCHEDULER_API_BASE ||
-    'https://reservations-service-axhua9hde6cbbqac.canadacentral-01.azurewebsites.net',
+    'http://54.83.186.85:8090',
 
   // Base del users service. Para CRA ya incluye /Api-user
   USERS_BASE:

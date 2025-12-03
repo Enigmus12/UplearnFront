@@ -241,7 +241,7 @@ const TutorAvailabilityPage: React.FC = () => {
         const remaining = existing.filter(h => !toRemove.includes(h));
 
         if (remaining.length > 0) {
-          const res = await fetch(`http://54.83.186.85:8090/api/availability/day/${date}`, {
+          const res = await fetch(`https://reservations.duckdns.org/api/availability/day/${date}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
             body: JSON.stringify({ hours: remaining }),

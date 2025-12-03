@@ -6,7 +6,7 @@ export const ENV = {
   SCHEDULER_BASE:
     viteEnv.VITE_SCHEDULER_BASE_URL ||
     process.env.REACT_APP_SCHEDULER_API_BASE ||
-    'http://54.83.186.85:8090',
+    'https://reservations.duckdns.org',
 
   // Base del users service. Para CRA ya incluye /Api-user
   USERS_BASE:

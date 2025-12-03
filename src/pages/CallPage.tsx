@@ -655,7 +655,7 @@ export default function CallPage() {
     await acquireLocalMedia();
  
     const ws = new WebSocket(
-      `${wsProto()}://localhost:8093/ws/call?token=${encodeURIComponent(
+      `${wsProto()}://call-service.duckdns.org/ws/call?token=${encodeURIComponent(
         token,
       )}`,
     );

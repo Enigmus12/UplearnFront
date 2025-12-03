@@ -1,5 +1,5 @@
 // src/service/Api-call.ts
-const API_BASE_URL = 'http://localhost:8093';
+const API_BASE_URL = 'https://call-service.duckdns.org';
  
 export async function createCallSession(reservationId: string, token: string) {
   const res = await fetch(`${API_BASE_URL}/api/calls/session`, {

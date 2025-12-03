@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+build
+.dockerignore
+Dockerfile
+docker-compose.yml
+.git
+.gitignore
+README.md
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+DEPLOYMENT.md
+COGNITO_INTEGRATION.md
+COGNITO_SETUP.md

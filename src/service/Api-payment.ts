@@ -1,4 +1,4 @@
-const PAYMENT_BASE_URL = 'https://wallet-service-evh5ccbsbwb9cfh8.canadacentral-01.azurewebsites.net/api'; 
+const PAYMENT_BASE_URL = 'https://wallet-service.duckdns.org/api'; 
 
 export interface StripeCheckoutRequest {
   quantity: number;      // obligatorio

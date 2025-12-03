@@ -1,5 +1,5 @@
 // src/service/Api-search.js
-const API_BASE_URL = 'https://user-ser-fugpe2afcsbuduhe.canadacentral-01.azurewebsites.net/Api-search';
+const API_BASE_URL = 'https://user-service.duckdns.org/Api-search';
  
 function normalizeBio(rawBio) {
   if (!rawBio) return '';

@@ -1,0 +1,9 @@
+services:
+  uplearn-front:
+    image: uplearn-frontend
+    container_name: uplearn-frontend
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production

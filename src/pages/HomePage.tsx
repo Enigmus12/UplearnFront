@@ -29,7 +29,7 @@ const HomePage: React.FC = () => {
     
     // Luego redirigir a Cognito para cerrar sesión
     const clientId = "342s18a96gl2pbaroorqh316l8";
-    const logoutUri = "https://icy-sand-034dbe50f.3.azurestaticapps.net";
+    const logoutUri = "https://uplearnfront.duckdns.org";
     const cognitoDomain = "https://us-east-18mvprkbvu.auth.us-east-1.amazoncognito.com";
     window.location.href = `${cognitoDomain}/logout?client_id=${clientId}&logout_uri=${encodeURIComponent(logoutUri)}`;
   };
